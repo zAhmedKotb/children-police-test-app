@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bac"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".socned"
+    >
+    <LinearLayout
+
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btn2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/chaki"
+
+        />
+
+    <Button
+        android:background="@drawable/btn"
+        android:layout_margin="10dp"
+        android:id="@+id/dont_liston"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="لا يسمع الكلام"
+        android:textStyle="bold"
+        android:textColor="@color/backAllGRound"
+        android:textSize="20dp"/>
+
+    <Button
+        android:background="@drawable/btn"
+        android:layout_margin="10dp"
+        android:id="@+id/eat"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="لا يريد الآكل"
+        android:textStyle="bold"
+        android:textColor="@color/backAllGRound"
+        android:textSize="20dp"/>
+
+    <Button
+        android:background="@drawable/btn"
+        android:layout_margin="10dp"
+        android:id="@+id/dont_sleep"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="لا يريد النوم"
+        android:textStyle="bold"
+        android:textColor="@color/backAllGRound"
+        android:textSize="20dp"/>
+    <Button
+        android:background="@drawable/btn"
+        android:layout_margin="10dp"
+        android:id="@+id/angry"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="يبكي دائماً"
+        android:textStyle="bold"
+        android:textColor="@color/backAllGRound"
+        android:textSize="20dp"/>
+    <Button
+        android:background="@drawable/btn"
+        android:layout_margin="10dp"
+        android:id="@+id/dengar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="مشاغب"
+        android:textStyle="bold"
+        android:textColor="@color/backAllGRound"
+        android:textSize="20dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bak"
+    android:gravity="center"
+    >
+    <LinearLayout
+
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boype"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="مرحبا بك في شرطة الاطفال"
+        android:textSize="25dp"
+        android:layout_margin="5dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:background="#0CD1CDCD">
+        <!--<ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/playicon"/>-->
+
+
+        <Button
+           android:background="@drawable/btn"
+            android:id="@+id/btn"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ابدآ من هنا"
+            android:textSize="25dp"
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
